@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\FaceAPI_Services",
+    "\\FaceAPI_Services\\FaceAPI_Services"
   ],
   "PreviewInSolutionExplorer": false
 }

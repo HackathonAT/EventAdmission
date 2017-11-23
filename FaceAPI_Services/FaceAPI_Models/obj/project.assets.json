@@ -25,6 +25,39 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "OpenCVSharp/2.4.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/OpenCvSharp.Blob.dll": {},
+          "lib/OpenCvSharp.CPlusPlus.dll": {},
+          "lib/OpenCvSharp.DebuggerVisualizers.dll": {},
+          "lib/OpenCvSharp.Extensions.dll": {},
+          "lib/OpenCvSharp.Gpu.dll": {},
+          "lib/OpenCvSharp.MachineLearning.dll": {},
+          "lib/OpenCvSharp.UserInterface.dll": {},
+          "lib/OpenCvSharp.dll": {}
+        },
+        "runtime": {
+          "lib/OpenCvSharp.Blob.dll": {},
+          "lib/OpenCvSharp.CPlusPlus.dll": {},
+          "lib/OpenCvSharp.DebuggerVisualizers.dll": {},
+          "lib/OpenCvSharp.Extensions.dll": {},
+          "lib/OpenCvSharp.Gpu.dll": {},
+          "lib/OpenCvSharp.MachineLearning.dll": {},
+          "lib/OpenCvSharp.UserInterface.dll": {},
+          "lib/OpenCvSharp.dll": {}
+        }
+      },
+      "FaceAPI_BusinessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/FaceAPI_BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FaceAPI_BusinessLayer.dll": {}
+        }
       }
     }
   },
@@ -169,15 +202,46 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "OpenCVSharp/2.4.0.1": {
+      "sha512": "tGa7NCBHvUCbZRo+YbmY6bMgw/iFikXqrHSzLtg0BIRWH1hp/lbzNm3VQUq0wr6UXeHQf12hiRWEMuGGhIks4w==",
+      "type": "package",
+      "path": "opencvsharp/2.4.0.1",
+      "files": [
+        "content/OpenCvSharp.Blob.dll.config",
+        "content/OpenCvSharp.CPlusPlus.dll.config",
+        "content/OpenCvSharp.MachineLearning.dll.config",
+        "content/OpenCvSharp.dll.config",
+        "content/OpenCvSharpExtern.dll",
+        "content/libOpenCvSharpExtern.so",
+        "lib/OpenCvSharp.Blob.dll",
+        "lib/OpenCvSharp.CPlusPlus.dll",
+        "lib/OpenCvSharp.DebuggerVisualizers.dll",
+        "lib/OpenCvSharp.Extensions.dll",
+        "lib/OpenCvSharp.Gpu.dll",
+        "lib/OpenCvSharp.MachineLearning.dll",
+        "lib/OpenCvSharp.UserInterface.dll",
+        "lib/OpenCvSharp.dll",
+        "opencvsharp.2.4.0.1.nupkg.sha512",
+        "opencvsharp.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "FaceAPI_BusinessLayer/1.0.0": {
+      "type": "project",
+      "path": "../FaceAPI_BusinessLayer/FaceAPI_BusinessLayer.csproj",
+      "msbuildProject": "../FaceAPI_BusinessLayer/FaceAPI_BusinessLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.0"
+      "FaceAPI_BusinessLayer >= 1.0.0",
+      "NETStandard.Library >= 2.0.0",
+      "OpenCVSharp >= 2.4.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dilyas\\.nuget\\packages\\": {},
+    "C:\\Users\\dvanhee\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -186,17 +250,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\dilyas\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_Models\\FaceAPI_Models.csproj",
+      "projectUniqueName": "C:\\Users\\dvanhee\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_Models\\FaceAPI_Models.csproj",
       "projectName": "FaceAPI_Models",
-      "projectPath": "C:\\Users\\dilyas\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_Models\\FaceAPI_Models.csproj",
-      "packagesPath": "C:\\Users\\dilyas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dilyas\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_Models\\obj\\",
+      "projectPath": "C:\\Users\\dvanhee\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_Models\\FaceAPI_Models.csproj",
+      "packagesPath": "C:\\Users\\dvanhee\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dvanhee\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\dilyas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dvanhee\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -208,7 +272,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dvanhee\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_BusinessLayer\\FaceAPI_BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\dvanhee\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_BusinessLayer\\FaceAPI_BusinessLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -220,6 +288,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "OpenCVSharp": {
+            "target": "Package",
+            "version": "2.4.0.1"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -234,5 +306,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenCVSharp 2.4.0.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "OpenCVSharp",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

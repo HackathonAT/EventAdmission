@@ -4,4 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="OpenCVSharp" Version="2.4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FaceAPI_BusinessLayer\FaceAPI_BusinessLayer.csproj" />
+  </ItemGroup>
+
 </Project>

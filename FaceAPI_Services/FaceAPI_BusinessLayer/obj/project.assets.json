@@ -177,7 +177,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dilyas\\.nuget\\packages\\": {},
+    "C:\\Users\\dvanhee\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -186,17 +186,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\dilyas\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_BusinessLayer\\FaceAPI_BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\dvanhee\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_BusinessLayer\\FaceAPI_BusinessLayer.csproj",
       "projectName": "FaceAPI_BusinessLayer",
-      "projectPath": "C:\\Users\\dilyas\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_BusinessLayer\\FaceAPI_BusinessLayer.csproj",
-      "packagesPath": "C:\\Users\\dilyas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dilyas\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_BusinessLayer\\obj\\",
+      "projectPath": "C:\\Users\\dvanhee\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_BusinessLayer\\FaceAPI_BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\dvanhee\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dvanhee\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\dilyas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dvanhee\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
