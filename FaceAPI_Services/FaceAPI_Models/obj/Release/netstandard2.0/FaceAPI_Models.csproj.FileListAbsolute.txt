@@ -1,0 +1,11 @@
+C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\bin\Release\netstandard2.0\FaceAPI_Models.deps.json
+C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\bin\Release\netstandard2.0\FaceAPI_Models.dll
+C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\bin\Release\netstandard2.0\FaceAPI_Models.pdb
+C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\bin\Release\netstandard2.0\FaceAPI_BusinessLayer.dll
+C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\bin\Release\netstandard2.0\FaceAPI_BusinessLayer.pdb
+C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Release\netstandard2.0\FaceAPI_Models.csprojResolveAssemblyReference.cache
+C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Release\netstandard2.0\FaceAPI_Models.csproj.CoreCompileInputs.cache
+C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Release\netstandard2.0\FaceAPI_Models.AssemblyInfoInputs.cache
+C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Release\netstandard2.0\FaceAPI_Models.AssemblyInfo.cs
+C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Release\netstandard2.0\FaceAPI_Models.dll
+C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Release\netstandard2.0\FaceAPI_Models.pdb
