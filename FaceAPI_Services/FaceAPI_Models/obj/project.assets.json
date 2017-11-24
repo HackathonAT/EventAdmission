@@ -241,7 +241,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dvanhee\\.nuget\\packages\\": {},
+    "C:\\Users\\dilyas\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -250,17 +250,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\dvanhee\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_Models\\FaceAPI_Models.csproj",
+      "projectUniqueName": "C:\\Users\\dilyas\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_Models\\FaceAPI_Models.csproj",
       "projectName": "FaceAPI_Models",
-      "projectPath": "C:\\Users\\dvanhee\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_Models\\FaceAPI_Models.csproj",
-      "packagesPath": "C:\\Users\\dvanhee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dvanhee\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_Models\\obj\\",
+      "projectPath": "C:\\Users\\dilyas\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_Models\\FaceAPI_Models.csproj",
+      "packagesPath": "C:\\Users\\dilyas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dilyas\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\dvanhee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dilyas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -273,8 +273,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\dvanhee\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_BusinessLayer\\FaceAPI_BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\dvanhee\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_BusinessLayer\\FaceAPI_BusinessLayer.csproj"
+            "C:\\Users\\dilyas\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_BusinessLayer\\FaceAPI_BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\dilyas\\source\\repos\\Team5-FaceVerification\\FaceAPI_Services\\FaceAPI_BusinessLayer\\FaceAPI_BusinessLayer.csproj"
             }
           }
         }

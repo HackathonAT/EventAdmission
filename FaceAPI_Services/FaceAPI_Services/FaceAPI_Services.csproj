@@ -126,12 +126,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="AzureDatabseConnectorcs.cs" />
     <Compile Include="AzureHandler.cs" />
+    <Compile Include="CreateUser.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="ImageHandler.cs" />
+    <Compile Include="Models\CreateUser.cs" />
+    <Compile Include="Models\PesonEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="OpenCvSharp.MachineLearning.dll.config" />
@@ -150,7 +155,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FaceAPI_BusinessLayer\FaceAPI_BusinessLayer.csproj">
@@ -173,7 +177,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>50097</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

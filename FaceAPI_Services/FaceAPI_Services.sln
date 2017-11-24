@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceAPI_Models", "FaceAPI_Models\FaceAPI_Models.csproj", "{AC0E2689-B32D-451E-9595-91CD302DB65B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceAPI_BusinessLayer", "FaceAPI_BusinessLayer\FaceAPI_BusinessLayer.csproj", "{8BBE340E-882D-49E6-A7E4-3425824A418E}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceAPI_Services", "FaceAPI_Services\FaceAPI_Services.csproj", "{C0C5B1D2-006B-48CB-9F26-ED652317CB81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceAPI_Models", "FaceAPI_Models\FaceAPI_Models.csproj", "{AC0E2689-B32D-451E-9595-91CD302DB65B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceAPI_BusinessLayer", "FaceAPI_BusinessLayer\FaceAPI_BusinessLayer.csproj", "{8BBE340E-882D-49E6-A7E4-3425824A418E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArminServices", "ArminServices\ArminServices.csproj", "{337DA228-EABD-42D8-9DDC-B088FFF07817}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C0C5B1D2-006B-48CB-9F26-ED652317CB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0C5B1D2-006B-48CB-9F26-ED652317CB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0C5B1D2-006B-48CB-9F26-ED652317CB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0C5B1D2-006B-48CB-9F26-ED652317CB81}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC0E2689-B32D-451E-9595-91CD302DB65B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC0E2689-B32D-451E-9595-91CD302DB65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC0E2689-B32D-451E-9595-91CD302DB65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +25,14 @@ Global
 		{8BBE340E-882D-49E6-A7E4-3425824A418E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BBE340E-882D-49E6-A7E4-3425824A418E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BBE340E-882D-49E6-A7E4-3425824A418E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C5B1D2-006B-48CB-9F26-ED652317CB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C5B1D2-006B-48CB-9F26-ED652317CB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C5B1D2-006B-48CB-9F26-ED652317CB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C5B1D2-006B-48CB-9F26-ED652317CB81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{337DA228-EABD-42D8-9DDC-B088FFF07817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337DA228-EABD-42D8-9DDC-B088FFF07817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337DA228-EABD-42D8-9DDC-B088FFF07817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337DA228-EABD-42D8-9DDC-B088FFF07817}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
