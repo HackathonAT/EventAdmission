@@ -5,11 +5,13 @@ using System.Web;
 using Microsoft.ProjectOxford.Face;
 using System.IO;
 using System.Threading.Tasks;
+using FaceAPI_BusinessLayer;
 
 namespace FaceAPI_Services
 {
     public class AzureHandler
     {
+        private PersonEntity personE;
         private FaceServiceClient fsc;
 
         public AzureHandler()
@@ -25,18 +27,44 @@ namespace FaceAPI_Services
             var faceIDs = faces.Select(x => x.FaceId).ToArray();
             if (faceIDs.Length == 0)
             {
-                return new Task<MemoryStream>();
+                return await new Task<MemoryStream>(null);// Task<MemoryStream>();
             }
             var personList = await fsc.IdentifyAsync(APIKeys.getPersonGroupID(), faceIDs);
             var personIDs = personList.Select(x => x.Candidates[0].PersonId);
 
-            ExtractPerson(personIDs);
+            var idPerson = ExtractPerson(personIDs);
+
+            return Task<MemoryStream>(idPerson);
         }
 
-        private void ExtractPerson(IEnumerable<Guid> personIDs)
+        private PersonEntity ExtractPerson(IEnumerable<Guid> personIDs)
         {
-            throw new NotImplementedException();
+            // Create a retrieve operation that takes a customer entity.
+            foreach p in personIDs
+                {
+                TableOperation retrieveOperation = TableOperation.Retrieve<Person>(p);
+
+                // Execute the retrieve operation.
+                TableResult retrievedResult = await peopleTable.ExecuteAsync(retrieveOperation);
+
+                // Print the phone number of the result.
+                if (retrievedResult.Result != null)
+                {
+                    string FirstName = retrievedResult.Result.FirstName;
+                    string LastName = retrievedResult.Result.LastName;
+                    string Role = retrievedResult.Result.Role;
+                    string Status = retrievedResult.Result.Status;
+                    DateTime Birthday = retrievedResult.Result.Birthday;
+
+                    personE = new PersonEntity(FirstName, LastName, Status, Role, Birthday);
+                    return personE;
+                }
+                else
+                    return new PersonEntity();
+            }
         }
+
+        
     }
 }
 /*

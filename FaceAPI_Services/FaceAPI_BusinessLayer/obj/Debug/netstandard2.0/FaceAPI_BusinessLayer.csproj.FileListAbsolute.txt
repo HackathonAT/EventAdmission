@@ -1,0 +1,9 @@
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_BusinessLayer\bin\Debug\netstandard2.0\FaceAPI_BusinessLayer.deps.json
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_BusinessLayer\bin\Debug\netstandard2.0\FaceAPI_BusinessLayer.dll
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_BusinessLayer\bin\Debug\netstandard2.0\FaceAPI_BusinessLayer.pdb
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_BusinessLayer\obj\Debug\netstandard2.0\FaceAPI_BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_BusinessLayer\obj\Debug\netstandard2.0\FaceAPI_BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_BusinessLayer\obj\Debug\netstandard2.0\FaceAPI_BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_BusinessLayer\obj\Debug\netstandard2.0\FaceAPI_BusinessLayer.AssemblyInfo.cs
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_BusinessLayer\obj\Debug\netstandard2.0\FaceAPI_BusinessLayer.dll
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_BusinessLayer\obj\Debug\netstandard2.0\FaceAPI_BusinessLayer.pdb

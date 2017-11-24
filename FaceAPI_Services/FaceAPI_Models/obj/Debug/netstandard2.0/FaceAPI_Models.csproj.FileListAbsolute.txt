@@ -4,3 +4,14 @@ C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Mo
 C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Debug\netstandard2.0\FaceAPI_Models.csproj.CoreCompileInputs.cache
 C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Debug\netstandard2.0\FaceAPI_Models.AssemblyInfoInputs.cache
 C:\Users\dvanhee\source\repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Debug\netstandard2.0\FaceAPI_Models.AssemblyInfo.cs
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\bin\Debug\netstandard2.0\FaceAPI_Models.deps.json
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\bin\Debug\netstandard2.0\FaceAPI_Models.dll
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\bin\Debug\netstandard2.0\FaceAPI_Models.pdb
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\bin\Debug\netstandard2.0\FaceAPI_BusinessLayer.dll
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\bin\Debug\netstandard2.0\FaceAPI_BusinessLayer.pdb
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Debug\netstandard2.0\FaceAPI_Models.csprojResolveAssemblyReference.cache
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Debug\netstandard2.0\FaceAPI_Models.csproj.CoreCompileInputs.cache
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Debug\netstandard2.0\FaceAPI_Models.AssemblyInfoInputs.cache
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Debug\netstandard2.0\FaceAPI_Models.AssemblyInfo.cs
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Debug\netstandard2.0\FaceAPI_Models.dll
+C:\Users\sstojanoski\Source\Repos\Team5-FaceVerification\FaceAPI_Services\FaceAPI_Models\obj\Debug\netstandard2.0\FaceAPI_Models.pdb
