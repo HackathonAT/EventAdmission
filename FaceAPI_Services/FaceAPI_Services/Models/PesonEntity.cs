@@ -4,11 +4,11 @@ namespace FaceAPI_BusinessLayer
 {
     public class PersonEntity
     {
-        private string FirstName { set; get; }
-        private string LastName { set; get; }
-        private string Status { set; get; }
-        private string Role { set; get; }
-        private DateTime Birthday { set; get; }
+        public string FirstName { set; get; }
+        public string LastName { set; get; }
+        public string Status { set; get; }
+        public string Role { set; get; }
+        public DateTime Birthday { set; get; }
 
         public PersonEntity()
         {
