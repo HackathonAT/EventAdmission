@@ -1,0 +1,17 @@
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\bin\ArminServices.dll.config
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\bin\ArminServices.dll
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\bin\ArminServices.pdb
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\bin\Newtonsoft.Json.dll
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\bin\System.Net.Http.Formatting.dll
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\bin\System.Web.Http.dll
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\bin\System.Web.Http.WebHost.dll
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\bin\Newtonsoft.Json.xml
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\bin\System.Net.Http.Formatting.xml
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\bin\System.Web.Http.xml
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\bin\System.Web.Http.WebHost.xml
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\obj\Debug\ArminServices.csproj.CoreCompileInputs.cache
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\obj\Debug\ArminServices.dll
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\obj\Debug\ArminServices.pdb
+C:\Users\dilyas\source\repos\Team5-FaceVerification\FaceAPI_Services\ArminServices\obj\Debug\ArminServices.csprojResolveAssemblyReference.cache
